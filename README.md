@@ -1,15 +1,23 @@
-# Installing tutorial
-**Reference**: [Adapt from Tensorflow for poets tutorial](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets)
+# Odonto x-ray image recognition
+**References**: 
 
-**Issue**: [TensorFlow – KeyError: “The name ‘import/input’ refers to an Operation not in the graph](http://www.whatibroke.com/2017/09/03/tensorflow-keyerror-the-name-importinput-refers-to-an-operation-not-in-the-graph/)
+* [Adapt from Tensorflow for poets tutorial](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets)
+* [Install docker](https://docs.docker.com/install/)
+
+**Know issue**: 
+
+* [TensorFlow – KeyError: “The name ‘import/input’ refers to an Operation not in the graph](http://www.whatibroke.com/2017/09/03/tensorflow-keyerror-the-name-importinput-refers-to-an-operation-not-in-the-graph/)
+* [CRITICAL: tensorflow:Category has no images - validation](https://stackoverflow.com/questions/38175673/critical-tensorflowcategory-has-no-images-validation)
+
+## Clone repository
 
 ```bash
-git clone https://github.com/googlecodelabs/tensorflow-for-poets-2 tensorflow-odonto
+git clone https://github.com/asantos2000/tensorflow-odonto.git
 
 cd tensorflow-odonto
 ```
 
-# Run with docker
+## Running with docker
 
 > $PWD is pointing to tensorflow-odonto directory
 
@@ -17,9 +25,9 @@ cd tensorflow-odonto
 $ docker run -it -p 6006:6006 -p 8888:8888 -v $PWD:/root gcr.io/tensorflow/tensorflow:latest-devel bash
 ```
 
-# Retrain
-> You need to add your images on tf_files/training directory. Each subdirectory will be your label. Ie: tf_files/training/xr-panoramic contain all x-ray panoramic images
-> For copyright reasons images are not included.
+# Retraining your model
+> You need to add your images on tf_files/training directory. Each subdirectory will be your label. Ie: tf_files/training/xr-panoramic contain all x-ray panoramic images.
+> Because of copyright reasons images are not included.
 
 ```bash
 # set env variables for retrain
