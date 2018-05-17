@@ -1,5 +1,18 @@
 **/*.pyc
-tf_files
+tf_files/test/document/
+tf_files/test/photo/
+tf_files/test/x-ray/interproximal/*.jpg
+tf_files/test/x-ray/occlusal/*.jpg
+tf_files/test/x-ray/panoramic/*.jpg
+tf_files/test/x-ray/periapical/*.jpg
+tf_files/training/document/
+tf_files/training/photo/
+tf_files/training/xr-interproximal/*.jpg
+tf_files/training/xr-occlusal/*.jpg
+tf_files/training/xr-panoramic/*.jpg
+tf_files/training/xr-periapical/*.jpg
+tf_files/training_summaries/*
+tf_files/bottlenecks/*
 .idea/
 **/*~
 gradle*
@@ -9,3 +22,4 @@ android.iml
 .gradle/
 android/assets/*
 .bash_history/
+*/.DS_Store

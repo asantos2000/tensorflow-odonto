@@ -1,0 +1,6 @@
+document
+photo
+xr interproximal
+xr occlusal
+xr panoramic
+xr periapical

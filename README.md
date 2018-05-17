@@ -18,6 +18,8 @@ $ docker run -it -p 6006:6006 -p 8888:8888 -v $PWD:/root gcr.io/tensorflow/tenso
 ```
 
 # Retrain
+> You need to add your images on tf_files/training directory. Each subdirectory will be your label. Ie: tf_files/training/xr-panoramic contain all x-ray panoramic images
+> For copyright reasons images are not included.
 
 ```bash
 # set env variables for retrain
