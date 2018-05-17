@@ -1,5 +1,5 @@
 
-# Reconhecimento de imagens radiológicas</h1>
+# Reconhecimento de imagens radiológicas
 
 A tecnologia evoluiu incrivelmente nos últimos dez anos, computação na nuvem, sistemas distribuído com capacidade de atender um número ilimitado de usuários, aprendizado de máquina identificando imagens em tempo real, para mencionar alguns.
 
