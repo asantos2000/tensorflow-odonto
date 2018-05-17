@@ -3,7 +3,7 @@
 
 A tecnologia evoluiu incrivelmente nos últimos dez anos, computação na nuvem, sistemas distribuído com capacidade de atender um número ilimitado de usuários, aprendizado de máquina identificando imagens em tempo real, para mencionar alguns.
 
-![panoramic](../img/panoramic2.jpg)
+![panoramic](img/panoramic.jpg)
 
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
