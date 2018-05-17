@@ -21,6 +21,6 @@ local.properties
 android.iml
 .gradle/
 android/assets/*
-.bash_history/
+.bash_history
 .DS_Store
 .empty
