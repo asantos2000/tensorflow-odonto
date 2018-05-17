@@ -44,7 +44,7 @@ Download an image from the internet (Ie: google images: x-ray panoramic) and try
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
 >     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/x-ray/periapical/196819_22.jpg
+>     --image=tf_files/test/x-ray/periapical/1.jpg
 
 Evaluation time (1-image): 0.082s
 
@@ -58,7 +58,7 @@ document (score=0.00000)
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
 >     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/x-ray/panoramic/225814_3.jpg
+>     --image=tf_files/test/x-ray/panoramic/1.jpg
 
 Evaluation time (1-image): 0.092s
 
@@ -72,7 +72,7 @@ xr interproximal (score=0.00000)
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
 >     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/x-ray/occlusal/234771_11.jpg
+>     --image=tf_files/test/x-ray/occlusal/1.jpg
 
 Evaluation time (1-image): 0.084s
 
@@ -86,7 +86,7 @@ document (score=0.00007)
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
 >     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/x-ray/interproximal/102030_14.jpg
+>     --image=tf_files/test/x-ray/interproximal/1.jpg
 
 Evaluation time (1-image): 0.090s
 
@@ -100,35 +100,7 @@ xr panoramic (score=0.00000)
 ```bash
 root@90fc08cfbe3b:~# python scripts/label_image.py \
 >     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/photo/78747810_39.jpg
-
-Evaluation time (1-image): 0.085s
-
-photo (score=0.99997) <--------------
-xr interproximal (score=0.00003)
-xr periapical (score=0.00000)
-xr occlusal (score=0.00000)
-xr panoramic (score=0.00000)
-```
-
-```bash
-root@90fc08cfbe3b:~# python scripts/label_image.py \
->     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/document/214050_8.jpg
-
-Evaluation time (1-image): 0.095s
-
-document (score=0.99994) <--------------
-xr periapical (score=0.00003)
-photo (score=0.00003)
-xr panoramic (score=0.00000)
-xr occlusal (score=0.00000)
-```
-
-```bash
-root@90fc08cfbe3b:~# python scripts/label_image.py \
->     --graph=tf_files/retrained_graph.pb  \
->     --image=tf_files/test/x-ray/panoramic/net100.jpg
+>     --image=tf_files/test/x-ray/panoramic/2.jpg
 
 Evaluation time (1-image): 0.094s
 
