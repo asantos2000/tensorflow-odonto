@@ -3,6 +3,23 @@
 
 A tecnologia evoluiu incrivelmente nos últimos dez anos, computação na nuvem, sistemas distribuído com capacidade de atender um número ilimitado de usuários, aprendizado de máquina identificando imagens em tempo real, para mencionar alguns.
 
+![panoramic](../img/panoramic2.jpg)
+
+```bash
+root@90fc08cfbe3b:~# python scripts/label_image.py \
+>     --graph=tf_files/retrained_graph.pb  \
+>     --image=tf_files/test/x-ray/panoramic/1.jpg
+
+Evaluation time (1-image): 0.092s
+
+xr panoramic (score=0.99866) <--------------
+xr occlusal (score=0.00127)
+xr periapical (score=0.00007)
+document (score=0.00001)
+xr interproximal (score=0.00000)
+```
+
+
 Todas essas tecnologias surpreendentes custam poucos dólares e estão ao alcance de todos.
 
 Estamos conectando esses maravilhosas tecnologias ao seu negócio.
