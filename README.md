@@ -170,7 +170,8 @@ root@90fc08cfbe3b:~# jupyter notebook --no-browser --ip=0.0.0.0 --allow-root
 ```
 
 ## Contribute with this project
-We're planning to extend functionali
+We're planning to extend functionalities of this neural network to recognize more features in an image, like bridges, fillings, etc.
+Do you like to help us? Share with us as many images as you can, and stay in touch.
 
 ## References and Issues
 
