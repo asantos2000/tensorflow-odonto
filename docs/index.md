@@ -5,7 +5,7 @@ A tecnologia evoluiu incrivelmente nos últimos dez anos, computação na nuvem,
 
 Todas essas tecnologias surpreendentes custam poucos dólares e estão ao alcance de todos.
 
-Estamos conectando esses maravilhosas tecnologias ao seu negócio. </p>
+Estamos conectando esses maravilhosas tecnologias ao seu negócio.
 
 Estamos desenvolvendo e treinando sistemas de aprendizado de máquina para identificar, em raio-x odontológicos, obturações, implantes, pontes, etc.
 
