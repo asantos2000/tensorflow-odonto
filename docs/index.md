@@ -40,7 +40,7 @@ Para nos ajudar, clicque em uma das categorias abaixo para enviar as imagens dig
 
 As imagens não precisam conter nenhuma identificação do paciente e elas não serão divulgadas ou exibidas em nenhuma midia eletrônica (páginas web, video, etc.). Uma vez que a IA é treinada com a imagem ela pode ser descartada.
 
-Todos os cvolaboradores terão acesso ao software.
+Todos os colaboradores terão acesso ao software.
 
 Caso queira adicionar categorias é só deixar um comentário nesta página.
 
